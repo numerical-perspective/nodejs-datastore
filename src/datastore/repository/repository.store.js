@@ -1,6 +1,8 @@
-const Repository = require("./repository.engine");
+// import datastore ENGINE 
+const Engine = require("./repository.engine");
 
-class Store extends Repository{ 
+// extend the engine functionality with new methods
+class Store extends Engine {
 
     async exampleFunction() {
         // some logic here...
@@ -9,4 +11,5 @@ class Store extends Repository{
     }
 }
 
+// export the instance of class and create a file by that name
 module.exports = new Store("store.json");

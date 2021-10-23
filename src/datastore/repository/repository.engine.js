@@ -2,7 +2,7 @@ const fs = require("fs");
 const crypto = require("crypto");
 const path = require("path");
 
-module.exports = class Repository {
+module.exports = class Engine {
     constructor(filename) {
         if (!filename) {
             throw new Error("Datastore filename required!");
