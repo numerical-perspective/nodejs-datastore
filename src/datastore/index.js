@@ -1,0 +1,1 @@
+module.exports.Store = require("./repository/repository.store");

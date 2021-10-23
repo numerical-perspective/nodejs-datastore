@@ -1,0 +1,19 @@
+{
+  "name": "node_datastore",
+  "version": "1.0.0",
+  "description": "",
+  "author": "",
+  "license": "MIT",
+  "main": "./src",
+  "private": false,
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "keywords": [
+    "node",
+    "datastore"
+  ]
+}
