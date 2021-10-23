@@ -40,12 +40,12 @@ To add your methods (or to override existing ones) you just have to write your m
 Datastore engine has only a few built-in methods, but it should be more than enough to get you going with storing data. You can always extend the functionality to whatever needs you may have.
 
 Here is the list of the core engine methods:
-- datastore.findAll()
-- datastore.findOne()
-- datastore.findOneBy()
-- datastore.insertOne()
-- datastore.updateOne()
-- datastore.deleteOne()
-- datastore.deleteAll()
+- Store.findAll()
+- Store.findOne()
+- Store.findOneBy()
+- Store.insertOne()
+- Store.updateOne()
+- Store.deleteOne()
+- Store.deleteAll()
 
-In this example, I've exported the datastore under the name `datastore`, but you can use any name you want. Just make sure you export it under your desired name from `./datastore/index.js` file. All exports are defined from there.
+In this example, I've exported the datastore under the name `Store`, but you can use any name you want. Just make sure you export it under your desired name from `./datastore/index.js` file. All exports are defined from there.
